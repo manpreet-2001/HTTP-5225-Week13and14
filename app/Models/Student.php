@@ -19,4 +19,21 @@ class Student extends Model
         'lname',
         'email',
     ];
+
+    /**
+     * Get the courses that the student is enrolled in.
+     */
+    public function courses()
+    {
+        return $this->belongsToMany(Course::class, 'course_student')
+                    ->withTimestamps();
+    }
+
+    /**
+     * Get the student's full name.
+     */
+    public function getFullNameAttribute()
+    {
+        return $this->fname . ' ' . $this->lname;
+    }
 }
