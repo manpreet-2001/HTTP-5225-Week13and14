@@ -6,14 +6,14 @@ A complete Laravel application for managing students, courses, and professors wi
 
 
 ### 🏠 Homepage & Navigation
-![Homepage](https://raw.githubusercontent.com/manpreet-2001/HTTP-5225-Week13and14/main/screenshots/homepage.png)
+![Homepage](https://raw.githubusercontent.com/manpreet-2001/HTTP-5225-Week13and14/main/screenshots/Untitled.png)
 
 
 ### 👥 Student Management
-![Students List](screenshots/main-pages/students-index.png)
+![Students List](screenshots/main-pages/Untitled1.png)
 
 ### 📚 Course Management
-![Courses List](screenshots/main-pages/courses-index.png)
+![Courses List](screenshots/main-pages/Untitled2.png)
 
 
 ---
